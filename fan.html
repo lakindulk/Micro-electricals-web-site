@@ -1,0 +1,132 @@
+<?php
+ require_once 'config.php'; ?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>ADD LED PRODUCTS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title></title>
+    <link href="style/style.css" rel="stylesheet">
+	    <link href="style/slide.css" rel="stylesheet">
+			    <link href="style/about us.css" rel="stylesheet">
+			    <link href="style/form.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar  navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="addproduct.html" class="navbar-brand">Back</a>
+                </div>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav navbar-right">
+					    <li><a href="index A.html">HOME</a></li>
+
+                        <li><a href="addproduct.html">ADD PRODUCTS</a></li>
+                        <li><a href="Contact us.html">Requests</a></li>
+						
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+</br>
+</br>
+<h2>Fan & other products</h2>
+</br><div class="container1">
+  <form action="addfan.php" method="POST">
+  <div class="row">
+    <div class="col-25">
+	 <label for="fname">ID:</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="id" name="id" placeholder="ID.." REQUIRED>
+    </div>
+  </div>
+
+ <div class="row">
+    <div class="col-25">
+    <label for="fname">Item Name (fan/or other item) :</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="item" name="item" placeholder="item name.." REQUIRED>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Brand :</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="brand" name="brand" placeholder="Brand .." REQUIRED>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="Company">Company : </label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="Company" name="Company" placeholder="Company.." REQUIRED>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">  Date  :</label>
+    </div>
+    <div class="col-75">
+      <input type="Date" id="date" name="date"  >
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">contact Number : </label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="phone" name="phone" placeholder="contact Number.." REQUIRED>
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-25">
+      <label for="subject">Price : </label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="price" name="price" placeholder="Price.." REQUIRED>
+    </div>
+  </div>
+  
+  
+  
+  
+  <div class="row">
+    <input type="submit" id="submit" name="submit"  value="Submit"> 
+
+  </div>
+  </form>
+</div>
+
+
+
+</body>
+</html>
+
+
+<?php
+//close connection
+mysqli_close($conn);
+?>

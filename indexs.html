@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title></title>
+    <link href="style/style.css" rel="stylesheet">
+	    <link href="style/slide.css" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar  navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="indexs.html" class="navbar-brand">Micro Electrics </a>
+                </div>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="register.php"><span class="glyphicon glyphicon-user">SignUp</span></a></li>
+                        <li><a href="login.php"><span class="glyphicon glyphicon-log-in">Login</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+   <main>
+        <section class="banner-image">
+            <div class="container">
+                <div class="banner-content">
+                    <h1>MICRO ELECTRICALS</h1>
+					<img src="img/LOGO.png" width="20%" height="20%" >
+                    <p>We always make sure to provide quality products for our customers,</br> For better future.
+</p>
+                </div>
+            </div>
+        </section>
+		
+
+
+		
+		
+		
+		
+        <section>
+            <div class="container">
+                <div class="padding-20"></div>
+                <div class="row">
+                    <div class="col-xs-4 text-center">
+                        <div class="thumbnail">
+                            <a href="products.html"><img src="img/c.png" alt="SAfe"></a>
+                            <div class="caption">
+                                <h2>SAFETY</h2>
+								<p> all the electricians have a great responsibility with the <b> safety </b> of 
+								theor customers .we will guranteed about the safety of our customers.</p>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <div class="thumbnail">
+                            <a href="products.html"><img src="img/a.png" alt="qylity"></a>
+                            <div class="caption">
+                                <h2>QULITY</h2>
+								<p>quality is the main function of a product and we provide  wolrd most recommended<b> high quality </b>brands for our products. </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <div class="thumbnail">
+                            <a href="products.html"><img src="img/b.png" alt="durable"></a>
+                            <div class="caption">
+                                <h2>DURABILITY</h2>
+                                <p>note that all of our products will have a <b>strong ability</b> to stand under any condition. All products have 2 or more warrenty.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="padding-20"></div>
+            </div>
+        </section>
+    </main>
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/s1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/d1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/s2.jpg" style="width:100%">
+</div>
+
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <center>
+                Copyright © MICRO Electricals . All Rights Reserved
+            </center>
+        </div>
+    </footer>
+</body>
+
+</html>

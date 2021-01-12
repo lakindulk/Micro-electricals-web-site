@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>ABOUT US</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title></title>
+    <link href="style/style.css" rel="stylesheet">
+	    <link href="style/slide.css" rel="stylesheet">
+			    <link href="style/about us.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar  navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">Micro Electricals</a>
+                </div>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav navbar-right">
+					    <li><a href="index.html">HOME</a></li>
+
+                        <li><a href="products.html">PRODUCTS</a></li>
+                        <li><a href="Contact us.html">CONTACT US</a></li>
+						<li><a href="ABOUT us.html">ABOUT US</a></li>
+												<li><a href="addprofile.html">PROFILE</a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+</br>
+</br>
+</br>
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="img/ab3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="img/ab1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="img/ab2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="img/ab4.jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+
+</script>
+
+
+</div>
+
+
+
+
+
+<center>
+<h2 class="h1"> Who Are We....</h2></br>
+					<img src="img/LOGO.png" width="10%" height="10%" ></br>
+
+<p> Micro Electricals, srilankan company which was highly recommened all around the country since 2015 onwards.With the certificate FCC we can be guarntee our prouct quality and safty<br>
+futhermore,recently we have an agreemnt with the world endorsed brands of Emerson, Listed Company. Founded 1890.</br>
+we will have an assurance of our service and product specially the quality and safty<br>
+As the next step our company, we like to introduce the online service with all facilities for our customer wellfare.<br>
+ 
+</center>
+ </p>
+ </center>
+
+<center>
+
+<h2 class="h2"> Why US....</h2>
+<p>if you search for a company for elecrical equiments,there will be soo many results for your pereference but the point is WHY US?<br>
+    Micro Electricals can be introduce as one of the company which have the wolrd recommended qualification FCC and the most popular company all around the sri lanka<br>
+	Withe the customer point if view most of them have leave a satisfacted and favorable comments about our service and product quality.<br>
+	moreover,we have a 24 hr service and all the modern technology to make our coutomers to get their pereference within many varrities<br>
+	The product safty and the quality will be guranteed by our company with the 2 year worrranty for each and every prouduct.<br>
+ </p>
+</center>
+ 
+ 
+ 
+<h3>Our liceanse and registrations:</h3>
+<ul type = square> <li> approved by srilankan goverment (natinal electicity policy)</li><li>gained the certificate of FCC</li><li>have the legal permissson to transport and import all around the country</li> </ul>
+<br> <h4>~~~~~~We are open in all 365 days~~~~~~~</h4><br>
+
+
+
+</div>
+
+    <footer>
+        <div class="container">
+            <center>
+                Copyright © MICRO Electricals . All Rights Reserved
+            </center>
+        </div>
+    </footer>
+
+</body>
+</html>
