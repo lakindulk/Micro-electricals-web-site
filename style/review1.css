@@ -1,0 +1,160 @@
+.review-details {
+  width:1050px;
+  height:500px;
+  color:#B8860B;
+  font-size:20px;
+  font-weight:italic;
+  border:8px solid grey;
+  background-image:url("../images/Review/backg.jpg");
+  background-size:cover;
+}
+
+.button{
+	margin-top:50px;
+	background-color:darkblue;
+	padding:50px 50px;
+}
+
+#submit {
+			background-color:green;
+			color:white;
+			text-decoration:none;
+			font-weight:bold;
+			position:relative;
+			margin-top:20px;
+			margin-bottom:50px;
+			padding:10px 30px;
+		
+}
+
+#submit:hover {
+		background-color:blue;
+}
+
+#cancel {
+			background-color:red;
+			color:white;
+			text-decoration:none;
+			font-weight:bold;
+			position:relative;
+			margin-top:20px;
+			margin-bottom:50px;
+			padding:10px 30px;
+		
+}
+
+#cancel:hover {
+		background-color:blue;
+}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+	
+}
+logo
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+   float: bottom;
+   left: 0;
+   position: absolute;
+   width: 100%;
+   height: 17%;
+   background-color: #25383C;
+   color: black;
+   font-size:18px;   
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  
+}
+
+.fa-fb {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-ig {
+  background: #125688;
+  color: white;
+}
+
+.fa-twt {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-yt {
+  background: #bb0000;
+  color: white;
+}
+/*sign in */
+.button1{
+ float:right;
+}
+.button1:hover a
+{
+  background-color: #ddd;
+  color: black;
+  transition:0.9s ease;
+}
+/* sign in button style*/
+.button1 a{
+  background-color: #ADD8E6;
+  border: 3px solid black;
+  color: black;
+  padding: 16px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+  margin-right: -7px;
+  margin-left: -7px;
+  margin-top: -2px;
+  margin-bottom: -2px;
+  cursor: pointer;
+}
+
+
+.header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: left;
+  font-size: 35px;
+}
+
+
+.footerButtons{
+	color:black;
+}
+

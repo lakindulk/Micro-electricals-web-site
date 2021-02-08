@@ -1,0 +1,25 @@
+.btn-group .button {
+  background-color: #039BE5; 
+  border: 1px solid red;
+  color: Black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 750px;
+  display: block;
+}
+
+.btn-group .button:not(:last-child) {
+  border-bottom: none; 
+}
+
+.btn-group .button:hover {
+  background-color: #aaa9ad;
+}
+
+body{
+background-image:img/back.jpg; 	
+	
+}

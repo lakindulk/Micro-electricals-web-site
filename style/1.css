@@ -1,0 +1,115 @@
+#card {
+    
+    width: 500px;
+	height: 500px;
+	text-align: center;
+    margin: left 120px;
+    margin-top: 100px;
+	color: black;
+	background: #8c8c8c;
+	
+	}
+	
+.register-switch {
+
+	height: 32px;
+	margin-bottom: 15px;
+	background: white;
+	border-radius: 3px;
+	border: 1px solid black;
+ 
+	}
+
+.register-switch-input {
+
+  display: none;
+  
+	}
+
+.register-switch-label {
+
+  float: left;
+  width: 50%;
+  line-height: 32px;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+.register-switch-input:checked + .register-switch-label {
+  
+	font-weight: 1000;
+	background: #99ccff;
+	border-radius: 5px;
+
+	}
+	
+#CONTINUE{
+
+	background: #3399ff;
+	border: 2px solid #b3b3b3;
+    border-radius: 3px;
+    margin-bottom: 15px;
+	width: 90%;
+	line-height: 30px;
+	cursor: pointer
+	
+	}
+
+
+#text {
+
+	border: 2px solid #b3b3b3;
+    border-radius: 3px;
+    margin-bottom: 1px;
+	width: 90%;
+	line-height: 30px;
+	
+	}
+	
+#facebook{
+
+	clear: both;
+    float: left;
+    display: block;
+	background: #32508E;
+    border-radius: 3px;
+	width: 45%;
+	color: white;
+	font-size: 16px;
+	line-height: 30px;
+	margin: 0px 15px;
+    
+	}
+		
+#google{
+
+    float: right;
+    display: block;
+	background: #ffffff;
+    border-radius: 3px;
+	width: 45%;
+	line-height: 30px;
+	font-size: 16px;
+
+	}	
+
+#privacy{
+
+	text-align: left;
+	padding:10px;
+	font-size: 11px;
+	color:black;
+	
+	}
+
+#Mobile{
+
+	font-size:12px;
+	float:left;
+	padding:10px;
+	margin-left:15px;
+	
+	}
